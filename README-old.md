@@ -1,13 +1,3 @@
-# 管理系统
-
-本项目是从若依的项目迁移过来的，项目包含完善的系统架构、合理的业务流程和众多有用的功能，因此可以作为初学的微服务（网页开发）项目。
-
-因为原来的ruoyi多面向使用的用户，自己作为作为开发者，期望能在开发的过程中，提供一个可学习和解释性好的项目，以供大家使用。因此经过合并和结构优化，通过添加对学习有用的注释和参考，加入自己的思考，所以产生了这个项目。
-
-
-
-同时，考虑到ruoyi中有很多冗杂的功能，并不利于初学者学习相关的知识，因此本人重构了一个微服务项目的demo，期望能提供简洁和可使用的开发框架，可以点击项目[链接](https://github.com/AlanLee234/Microservice-demo.git)查看。
-
 ## 平台简介
 
 若依是一套全部开源的快速开发平台，毫无保留给个人及企业免费使用。
@@ -17,14 +7,16 @@
 * 注册中心、配置中心选型Nacos，权限认证使用Redis。
 * 流量控制框架选型Sentinel，分布式事务选型Seata。
 * 如需不分离应用，请移步 [RuoYi](https://gitee.com/y_project/RuoYi)，如需分离应用，请移步 [RuoYi-Vue](https://gitee.com/y_project/RuoYi-Vue)
+* 阿里云折扣场：[点我进入](http://aly.ruoyi.vip)，腾讯云秒杀场：[点我进入](http://txy.ruoyi.vip)&nbsp;&nbsp;
+* 阿里云优惠券：[点我领取](https://www.aliyun.com/minisite/goods?userCode=brki8iof&share_source=copy_link)，腾讯云优惠券：[点我领取](https://cloud.tencent.com/redirect.php?redirect=1025&cps_key=198c8df2ed259157187173bc7f4f32fd&from=console)&nbsp;&nbsp;
 
-####  [若依/RuoYi-Cloud](https://gitee.com/zhangmrit/ruoyi-cloud) Ant Design版本。
+#### 友情链接 [若依/RuoYi-Cloud](https://gitee.com/zhangmrit/ruoyi-cloud) Ant Design版本。
 
 ## 系统模块
 
 ~~~
-backend  //后端项目
 com.ruoyi     
+├── ruoyi-ui              // 前端框架 [80]
 ├── ruoyi-gateway         // 网关模块 [8080]
 ├── ruoyi-auth            // 认证中心 [9200]
 ├── ruoyi-api             // 接口模块
@@ -45,9 +37,6 @@ com.ruoyi
 ├── ruoyi-visual          // 图形化管理模块
 │       └── ruoyi-visual-monitor                      // 监控中心 [9100]
 ├──pom.xml                // 公共依赖
-
-frontend  //前端项目
-├── ruoyi-ui              // 前端框架 [80]
 ~~~
 
 ## 架构图
@@ -123,3 +112,7 @@ frontend  //前端项目
     </tr>
 </table>
 
+
+## 若依微服务交流群
+
+QQ群： [![加入QQ群](https://img.shields.io/badge/已满-42799195-blue.svg)](https://jq.qq.com/?_wv=1027&k=yqInfq0S) [![加入QQ群](https://img.shields.io/badge/已满-170157040-blue.svg)](https://jq.qq.com/?_wv=1027&k=Oy1mb3p8) [![加入QQ群](https://img.shields.io/badge/已满-130643120-blue.svg)](https://jq.qq.com/?_wv=1027&k=rvxkJtXK) [![加入QQ群](https://img.shields.io/badge/已满-225920371-blue.svg)](https://jq.qq.com/?_wv=1027&k=0Ck3PvTe) [![加入QQ群](https://img.shields.io/badge/201705537-blue.svg)](https://jq.qq.com/?_wv=1027&k=FnHHP4TT) 点击按钮入群。
